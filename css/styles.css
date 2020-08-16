@@ -24,6 +24,38 @@ body{
   background-color: #FFF7D3;
 }
 
+#share {
+  font-family: "AmaticSC";
+  font-size: 35px;
+  color: #FF5300;
+  text-decoration: none;
+  background:rgba(255, 255, 255, 50);
+  border-color: #FF9C65;
+  border-width: 5px;
+  border-radius: 50px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  width: 250px;
+  height: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+
+}
+
+.shareButton {
+  text-decoration: none;
+  color:#FF5300;
+  background-color: transparent;
+  
+
+}
+
+.shareButton:hover {
+  text-decoration: none;
+  color:#FF5300;
+  opacity: 1;
+}
 
 p.about {
   text-align: center;
@@ -32,3 +64,12 @@ p.about {
   
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+#search {
+}
