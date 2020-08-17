@@ -6,13 +6,11 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-
+  <!-- Additional CSS must be placed after Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
   <!--Custom CSS-->
-
   <link rel="stylesheet" href="css/styles.css" />
-
   <!--Amatica Sc Font-->
-
   <link rel="stylesheet" href="amatic-sc/AmaticSC-Regular.ttf" />
 
 
@@ -20,6 +18,7 @@
 </head>
 <body>
 
+<!-- NAVBAR -->
   <header>
     <nav class="navbar justify-content-end">
       <ul class="nav">
@@ -33,6 +32,9 @@
 
   <body>
     <div class="container">
+
+<!-- TITLE -->
+
       <div class="row justify-content-center">
         <div class="col">
           <h1>Food For All</h1>
@@ -40,30 +42,43 @@
 
       </div>
 
+<!-- DESCRIPTION -->
+
       <div class="row justify-content-center">
-        <div class=" col-11 col-sm-12">
+        <div class=" col-10 col-sm-12">
           <p class="about">Food For All is a neighborhood exchange network where you can share, sell, and trade food from your own garden with the people in your community.</p>
         </div>
       </div>
 
+<!-- SHARE AND FIND BUTTONS -->
+
       <div class="row">
           <div class="col-lg-6">
             <div class="text-center">
-              <button class="btn-lg" type=“button” id="share"><a class="shareButton" href=“#”>Share Your Food</a></button>
+              <button class="btn-lg" type=“button” id="share"><a class="shareButton" href=“#”>SHARE YOUR FOOD</a></button>
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="text-center">
-              <button class="btn-lg" type=“button” id="share"><a class="shareButton" id="search" href=“#”>Find Food</a></button>
+              <button class="btn-lg" type=“button” id="share"><a class="shareButton" href=“#search”>FIND FOOD</a></button>
             </div>
           </div>
       </div>
 
+<!-- SEARCH PAGE/SECTION -->
+
       <div class="row justify-content-center">
-        <div class="col">
-          <input id="search" type="text" name="search" placeholder="Search..">
-          <img src="Images/fruit_wheel.png" alt="fruit wheel" class="center visible-lg">
+        <div class="col justify-content-center">
+
+            <h2 class="center">Find food near you</h2>
+
+          <div>
+            <input class="searchBar" id="search" type="text" name="search" placeholder="Search...">
+            <a class="search-btn" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+          </div>
+          
+          <img src="Images/fruit_wheel.png" alt="fruit wheel" class="center d-none d-sm-block">
         </div>
       </div>
 
