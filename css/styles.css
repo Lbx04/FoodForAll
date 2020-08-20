@@ -25,13 +25,6 @@ h1{
   
 }
 
-h2 {
-  text-align: center;
-  display: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  top: 100%;
-}
 
 body{
   background-color: #FFF7D3;
@@ -52,6 +45,7 @@ body{
   height: 60px;
   margin-top: 50px;
   margin-bottom: 50px;
+  top: 300px;
   
 
 }
@@ -81,7 +75,17 @@ p.about {
   display: absolute;
   margin-left: auto;
   margin-right: auto;
-  width: 93%;
+  width: 100%;
+}
+
+#findFood {
+  text-align: center;
+  font-size: 50px;
+  color: #FF9C65;
+  width:97%;
+  top: 450px;
+  position: absolute;
+
 }
 
 #search {
@@ -91,11 +95,11 @@ p.about {
 
 .searchBar {
   position: absolute;
-  top: 50%;
+  top: 650px;
   left:50%;
   transform: translate(-50%, -50%);
   height: 50px;
-  width: 250px;
+  width: 300px;
   padding: 10px;
   border: solid;
   border-width: 8px;
@@ -107,7 +111,7 @@ p.about {
 .search-btn {
   color: #FFDFA4;
   position: absolute;
-  top: 50%;
-  left:58.5%;
+  top: 650px;
+  left:61%;
   transform: translate(-50%, -50%);
 }
